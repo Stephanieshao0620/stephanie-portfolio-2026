@@ -1,17 +1,31 @@
 const menuButton = document.querySelector('.nav-toggle');
 const navigation = document.querySelector('.site-nav');
+const menuParameter = new URLSearchParams(location.search).get('lang');
+const menuLanguage = menuParameter === 'en' || menuParameter === 'zh'
+  ? menuParameter
+  : localStorage.getItem('portfolio-language') === 'en' ? 'en' : 'zh';
+const menuCopy = menuLanguage === 'en' ? { open: 'MENU', close: 'CLOSE' } : { open: '選單', close: '關閉' };
+
+if (menuButton) {
+  menuButton.innerHTML = '<span class="menu-icon" aria-hidden="true"><i></i><i></i><i></i></span>';
+  menuButton.setAttribute('aria-label', menuCopy.open);
+}
 
 menuButton?.addEventListener('click', () => {
   const open = navigation.classList.toggle('is-open');
   menuButton.setAttribute('aria-expanded', String(open));
-  menuButton.textContent = open ? 'CLOSE' : 'MENU';
+  menuButton.classList.toggle('is-open', open);
+  menuButton.setAttribute('aria-label', open ? menuCopy.close : menuCopy.open);
 });
 
 navigation?.addEventListener('click', (event) => {
   if (!event.target.closest('a')) return;
   navigation.classList.remove('is-open');
   menuButton?.setAttribute('aria-expanded', 'false');
-  if (menuButton) menuButton.textContent = 'MENU';
+  if (menuButton) {
+    menuButton.classList.remove('is-open');
+    menuButton.setAttribute('aria-label', menuCopy.open);
+  }
 });
 
 const variantCount = 13;

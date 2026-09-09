@@ -1,11 +1,11 @@
 const cases = {
   "sunny-city": {
     index: "01 / FEATURED CASE STUDY",
-    title: "PROJECT PORTAL",
+    title: "MOBILE APP & PRODUCT PORTAL",
     tagline: "FROM PRODUCT SPECIFICATION TO A LAUNCH-READY MOBILE EXPERIENCE.",
     summary: "從複雜娛樂平台規格、功能邏輯與品牌方向，整理為可實際開發、測試及上架的產品體驗。",
     cover: "assets/images/sunny-city.png",
-    coverAlt: "Project Portal 產品主視覺",
+    coverAlt: "Mobile App & Product Portal 產品主視覺",
     period: "2024 — 2025.06.19",
     role: "Product Planning / Lead UI Design",
     team: "PM / Front-end / Back-end / App Engineering / 3 UI Designers",
@@ -43,11 +43,11 @@ const cases = {
   },
   "live-platform": {
     index: "03 / RESPONSIVE PRODUCT",
-    title: "LIVE ENTERTAINMENT PLATFORM",
+    title: "LIVE STREAMING PLATFORM",
     tagline: "A RESPONSIVE VIEWER AND CREATOR EXPERIENCE ACROSS THREE DEVICE TYPES.",
     summary: "在既有直播功能上擴充內容、互動與主播工具，主導 Desktop、Tablet、Mobile 三種尺寸的 UI 方向與交付一致性。",
     cover: "assets/images/live-platform.png",
-    coverAlt: "Live Entertainment Platform 介面",
+    coverAlt: "Live Streaming Platform 介面",
     period: "2024 — 2026",
     role: "Lead UI Design / Responsive System",
     team: "PM 1 / Front-end 3 / Back-end 2 / UI Designers 2",
@@ -64,7 +64,7 @@ const cases = {
   },
   "sonic-ton": {
     index: "04 / GAME PRODUCT",
-    title: "SONIC / TON GAME",
+    title: "WEB3 PREDICTION GAME",
     tagline: "RESPONSIVE GAME INTERFACES AND MULTILINGUAL PRODUCT DELIVERY.",
     summary: "參與區塊鏈預測遊戲的介面、響應式產品頁與行銷視覺製作，並延伸 Sonic 與 TON 兩種產品版本。",
     cover: "assets/images/sonic-ton.png",
@@ -96,11 +96,11 @@ if (key === "sunny-city" || !key) {
     <section class="sunny-hero">
       <div class="sunny-hero-copy">
         <span>FEATURED CASE STUDY / 01</span>
-        <h1>PROJECT PORTAL</h1>
+        <h1>MOBILE APP &amp;<br>PRODUCT PORTAL</h1>
         <h2>FROM PRODUCT SPECIFICATION TO A LAUNCH-READY MOBILE EXPERIENCE.</h2>
         <h3>從複雜娛樂平台規格，到可上架、可展示並可延伸的產品基礎。</h3>
         <i></i>
-        <p>我負責初版產品企劃與 PRD 架構，整理功能、資訊架構與操作邏輯；並與技術主管及 PM 反覆確認流水限制、贈禮與玩家留存等機制的可行性。技術與金流細節由相關部門提供，我將回饋整合進規格與 UI 交付。</p>
+        <p>負責初版產品企劃與 PRD 架構，整理功能、資訊架構與操作邏輯；並與技術主管及 PM 反覆確認流水限制、贈禮與玩家留存等機制的可行性。技術與金流細節由相關部門提供，再將回饋整合進規格與 UI 交付。</p>
       </div>
       <figure><img src="assets/images/sunny-hero.png" alt="Project Portal 主視覺與產品介面" /></figure>
     </section>
@@ -126,10 +126,10 @@ if (key === "sunny-city" || !key) {
       <div class="sunny-cards three">
         <article><span>01</span><h3>COMPLEX PRODUCT RULES</h3><p>流水限制、VIP 升等、贈禮與玩家留存機制互相影響，需要把商業需求轉為工程可確認的條件。</p></article>
         <article><span>02</span><h3>SHIFTING DECISIONS</h3><p>工程確認後仍可能因 PM 的最終決策重新調整；規格書與介面必須反覆改寫，才能維持一致。</p></article>
-        <article><span>03</span><h3>INDIRECT & LATE INPUT</h3><p>我並非直接接觸客戶，需求經由 PM 傳遞，且部分變更接近下班才確認，壓縮設計與開發交付時間。</p></article>
+        <article><span>03</span><h3>INDIRECT & LATE INPUT</h3><p>設計端並非直接接觸客戶，需求經由 PM 傳遞，且部分變更接近下班才確認，壓縮設計與開發交付時間。</p></article>
       </div>
       <div class="sunny-response">
-        <div><span>MY RESPONSE</span><h2>MOVE FAST,<br>ALIGN EARLY.</h2><p>收到新需求後，我優先整理可行方案並盡快與工程師確認，讓規則、畫面與實作限制在交付前被看見。</p></div>
+        <div><span>DESIGN RESPONSE</span><h2>MOVE FAST,<br>ALIGN EARLY.</h2><p>收到新需求後，優先整理可行方案並盡快與工程師確認，讓規則、畫面與實作限制在交付前被看見。</p></div>
         <ol>
           <li><b>01　CLARIFY INPUT</b><p>整理 PM 傳遞的需求，標記不確定條件與待決策項目。</p></li>
           <li><b>02　TRANSLATE INTO RULES</b><p>將流水、升等、贈禮等需求轉成操作與判斷邏輯。</p></li>
@@ -150,7 +150,7 @@ if (key === "sunny-city" || !key) {
         <h3>SPECIFICATION ITERATION</h3>
         <ol><li>INITIAL PLAN<br><small>初版功能與頁面大綱</small></li><li>ENGINEERING REVIEW<br><small>確認狀態與技術限制</small></li><li>PM DECISION<br><small>更新商業決策</small></li><li>SPEC REVISION<br><small>同步規格與 UI</small></li><li>HANDOFF<br><small>交付可實作版本</small></li></ol>
       </div>
-      <aside><b>RESPONSIBILITY NOTE</b><p>我負責初版產品架構與規格整理，並持續整合 PM、工程及相關部門回饋；金流與後端技術規則由各專業角色共同確認。</p></aside>
+      <aside><b>RESPONSIBILITY NOTE</b><p>負責初版產品架構與規格整理，並持續整合 PM、工程及相關部門回饋；金流與後端技術規則由各專業角色共同確認。</p></aside>
     </section>
 
     <section class="sunny-section">
@@ -162,9 +162,9 @@ if (key === "sunny-city" || !key) {
       </div>
       <header><h2>FINAL APPLICATIONS</h2><p>從產品介面延伸至發布與宣傳接觸點</p></header>
       <div class="sunny-final"><figure><img src="assets/images/sunny-ui-overview.png" alt="產品介面" /></figure><figure><img src="assets/images/sunny-launch-display.png" alt="發表展示" /></figure><figure><img src="assets/images/sunny-store-preview.png" alt="商店預覽" /></figure></div>
-      <aside><b>MY ROLE</b><p>使用生成式 AI 探索角色方向，並負責挑選、調整與統整最終視覺，使角色能一致應用於產品介面、商店預覽與發表會物料。</p></aside>
+      <aside><b>DESIGN ROLE</b><p>使用生成式 AI 探索角色方向，並負責挑選、調整與統整最終視覺，使角色能一致應用於產品介面、商店預覽與發表會物料。</p></aside>
     </section>
-    <nav class="sunny-footer"><a href="index.html#selected-work">← BACK TO SELECTED WORK</a><a href="case.html?project=white-label">NEXT CASE ↗</a></nav>`;
+    <nav class="sunny-footer"><a href="index.html#selected-work">← BACK TO SELECTED WORKS</a><a href="case.html?project=white-label">NEXT CASE ↗</a></nav>`;
 } else if (key === "white-label") {
   document.body.classList.add("wl-body");
   document.getElementById("case-content").className = "white-case";
@@ -220,7 +220,7 @@ if (key === "sunny-city" || !key) {
 
     <section class="wl-section">
       <header><h2>VISUAL DIRECTION EXPLORATION</h2><p>在既有產品架構上，建立可比較的視覺方向</p></header>
-      <p class="wl-lead">根據 PM 彙整的色彩與風格需求，我以既有首頁架構為基礎製作多組配色與介面風格 Demo。設計保留主要功能、資訊層級與操作結構，調整品牌色、明暗模式、元件造型與視覺素材，作為後續客製 UI 製作的參考起點。</p>
+      <p class="wl-lead">根據 PM 彙整的色彩與風格需求，以既有首頁架構為基礎製作多組配色與介面風格 Demo。設計保留主要功能、資訊層級與操作結構，調整品牌色、明暗模式、元件造型與視覺素材，作為後續客製 UI 製作的參考起點。</p>
       <div class="wl-demo-gallery">
         <figure><img src="assets/images/white-label-variant-01.png" alt="暖色深色介面方向" /></figure>
         <figure><img src="assets/images/white-label-variant-05.png" alt="淺色介面方向" /></figure>
@@ -243,7 +243,7 @@ if (key === "sunny-city" || !key) {
         <article><figure><img src="assets/images/white-label-client-01.png" alt="369 California Casino 手機介面組合" /></figure><span>CLOSED MEMBER ACCESS</span><h3>369 CALIFORNIA CASINO</h3><p>因服務僅供旗下會員使用，移除公開註冊流程；密碼問題改由客服協助，並客製品牌 IP 與部分頁面。</p><small>MOBILE ONLY / LOGIN ONLY / CUSTOM IP</small></article>
       </div>
     </section>
-    <nav class="wl-footer"><a href="index.html#selected-work">← BACK TO SELECTED WORK</a><a href="case.html?project=live-platform">NEXT CASE ↗</a></nav>`;
+    <nav class="wl-footer"><a href="index.html#selected-work">← BACK TO SELECTED WORKS</a><a href="case.html?project=live-platform">NEXT CASE ↗</a></nav>`;
 } else if (key === "live-platform") {
   document.body.classList.add("live-body");
   document.getElementById("case-content").className = "live-case";
@@ -251,7 +251,7 @@ if (key === "sunny-city" || !key) {
     <section class="live-hero">
       <div class="live-hero-copy">
         <span>CASE STUDY / 04</span>
-        <h1>LIVE ENTERTAINMENT<br>PLATFORM</h1>
+        <h1>LIVE STREAMING<br>PLATFORM</h1>
         <h2>TRANSLATING CLIENT-PROVIDED BRAND DIRECTION INTO A RESPONSIVE, MULTI-DEVICE PRODUCT EXPERIENCE.</h2>
         <h3>從核心功能持續開發的早期設計稿出發，依客戶提供的品牌規範完成視覺落地，並將新增功能整合至觀眾端與主播端的跨裝置介面。</h3>
         <i></i>
@@ -280,12 +280,12 @@ if (key === "sunny-city" || !key) {
     <section class="live-section live-challenge">
       <header><span>THE CHALLENGE</span><h2>需求持續變動，但交付節奏不能停</h2><p>挑戰不只來自介面本身，更來自間接需求、晚到決策與工程可行性之間的反覆確認。</p></header>
       <div class="live-challenge-grid">
-        <article><span>01</span><b>INDIRECT INPUT</b><h3>間接取得需求</h3><p>我並非第一線接觸客戶，需等待 PM 彙整後才能確認修改內容，資訊可能在不同角色間再次轉譯。</p></article>
+        <article><span>01</span><b>INDIRECT INPUT</b><h3>間接取得需求</h3><p>設計端並非第一線接觸客戶，需等待 PM 彙整後才能確認修改內容，資訊可能在不同角色間再次轉譯。</p></article>
         <article><span>02</span><b>LATE DECISIONS</b><h3>決策時間集中</h3><p>部分關鍵決策接近下班前才確認，設計與工程需要在有限時間內重新對齊優先順序。</p></article>
         <article><span>03</span><b>TECHNICAL ALIGNMENT</b><h3>技術細節反覆確認</h3><p>新功能常需與工程師重新釐清判斷條件、狀態與限制，才能形成可實作共識。</p></article>
       </div>
       <div class="live-response">
-        <header><div><span>MY RESPONSE</span><h2>把變動轉成工程可執行的設計決策</h2></div><p>收到新需求後，我優先提出可比較方案，盡量不把時間壓力往工程端延後</p></header>
+        <header><div><span>DESIGN RESPONSE</span><h2>把變動轉成工程可執行的設計決策</h2></div><p>收到新需求後，優先提出可比較方案，盡量不把時間壓力往工程端延後</p></header>
         <div class="live-flow">
           <article><span>01</span><b>CAPTURE</b><h3>即時收集修改</h3><p>以設計稿進行線上展示，讓客戶直接指出需要調整的位置。</p></article>
           <article><span>02</span><b>CLARIFY</b><h3>拆解狀態與限制</h3><p>將口頭回饋整理成畫面狀態、邏輯條件與待確認項目。</p></article>
@@ -297,7 +297,7 @@ if (key === "sunny-city" || !key) {
     </section>
 
     <section class="live-features">
-      <header><div><span>FEATURE EXPANSION &amp; DESIGN LEADERSHIP</span><h2>在既有功能上擴充內容、互動與直播體驗</h2></div><p>客戶提供品牌名稱、Logo、色彩與視覺規範；我負責將其落實為 Desktop、Tablet、Mobile 的完整 UI，並主導兩位設計師之間的視覺方向與交付一致性。</p></header>
+      <header><div><span>FEATURE EXPANSION &amp; DESIGN LEADERSHIP</span><h2>在既有功能上擴充內容、互動與直播體驗</h2></div><p>客戶提供品牌名稱、Logo、色彩與視覺規範；設計職責是將其落實為 Desktop、Tablet、Mobile 的完整 UI，並主導兩位設計師之間的視覺方向與交付一致性。</p></header>
 
       <article class="live-showcase viewer">
         <header><span>RESPONSIVE VIEWER HOMEPAGE</span><h3>同一首頁，對應 Desktop、Tablet、Mobile 三種尺寸</h3><p>保留相同內容層級與品牌規範，依裝置重新安排導覽、卡片密度與側欄／底部選單。公開版本已遮蔽 Logo 與敏感名稱。</p></header>
@@ -323,21 +323,21 @@ if (key === "sunny-city" || !key) {
         <div class="live-creator-evidence"><figure><img src="assets/images/live-beauty.png" alt="主播美顏美體控制" /></figure><figure><img src="assets/images/live-ranking.png" alt="收禮排行榜狀態" /></figure></div>
       </article>
 
-      <section class="live-leadership"><span>DESIGN LEADERSHIP</span><h2>主導跨裝置 UI 方向與交付一致性</h2><p>品牌識別由客戶提供；我的責任是將既定規範轉化為可開發的跨裝置 UI、整合新增功能，並統整設計交付。</p><div><article><b>3 DEVICE TYPES</b><p>Desktop / Tablet / Mobile</p></article><article><b>2 UI DESIGNERS</b><p>主導整體方向與協作</p></article><article><b>8-PERSON CORE TEAM</b><p>PM 1 / FE 3 / BE 2 / UI 2</p></article><article><b>AI-ASSET WORKFLOW</b><p>AI 人物生成與素材整理</p></article></div></section>
+      <section class="live-leadership"><span>DESIGN LEADERSHIP</span><h2>主導跨裝置 UI 方向與交付一致性</h2><p>品牌識別由客戶提供；設計責任是將既定規範轉化為可開發的跨裝置 UI、整合新增功能，並統整設計交付。</p><div><article><b>3 DEVICE TYPES</b><p>Desktop / Tablet / Mobile</p></article><article><b>2 UI DESIGNERS</b><p>主導整體方向與協作</p></article><article><b>8-PERSON CORE TEAM</b><p>PM 1 / FE 3 / BE 2 / UI 2</p></article><article><b>AI-ASSET WORKFLOW</b><p>AI 人物生成與素材整理</p></article></div></section>
       <aside class="live-policy"><b>PUBLIC DISPLAY POLICY</b><p>Logo、客戶、公司與金流名稱皆匿名；僅展示經裁切的部分 UI，AI 人物素材僅作介面情境示意。</p></aside>
     </section>
-    <nav class="live-footer"><a href="index.html#selected-work">← BACK TO SELECTED WORK</a><a href="case.html?project=sonic-ton">NEXT CASE ↗</a></nav>`;
+    <nav class="live-footer"><a href="index.html#selected-work">← BACK TO SELECTED WORKS</a><a href="case.html?project=sonic-ton">NEXT CASE ↗</a></nav>`;
 } else if (key === "sonic-ton") {
   document.body.classList.add("sonic-body");
   document.getElementById("case-content").className = "sonic-case";
   document.getElementById("case-content").innerHTML = `
-    <section class="sonic-hero"><div class="sonic-hero-copy"><span>PRODUCT CASE STUDY / 03</span><h1>SONIC / TON<br>GAME</h1><h2>A RESPONSIVE PREDICTION GAME ADAPTED ACROSS POLYGON, TON AND SONIC ECOSYSTEMS.</h2><h3>以同一套預測遊戲機制為核心，延伸 Polygon、TON 與 Sonic 三種鏈別版本，並維持跨裝置與多語言的一致體驗。</h3><i></i><p>負責主視覺、遊戲介面與網頁設計，涵蓋 Desktop、Mobile 與多語言頁面，並依不同鏈別調整代幣、錢包與產品溝通。TON 版本於 2024 年 11 月透過 Telegram 上線；目前公開連結可能已撤除。</p></div><figure class="sonic-hero-visual"><div class="sonic-hero-stage"><img src="assets/images/sonic-hero.png" alt="Sonic 預測遊戲產品背景"><img class="sonic-hero-overlay" src="assets/images/sonic-hero-overlay.png" alt="Sonic 預測遊戲主視覺"></div><img class="sonic-hero-phone" src="assets/images/sonic-mobile-ui.png" alt="手機版預測遊戲介面"></figure></section>
+    <section class="sonic-hero"><div class="sonic-hero-copy"><span>PRODUCT CASE STUDY / 03</span><h1>WEB3 PREDICTION<br>GAME</h1><h2>A RESPONSIVE PREDICTION GAME ADAPTED ACROSS POLYGON, TON AND SONIC ECOSYSTEMS.</h2><h3>以同一套預測遊戲機制為核心，延伸 Polygon、TON 與 Sonic 三種鏈別版本，並維持跨裝置與多語言的一致體驗。</h3><i></i><p>負責主視覺、遊戲介面與網頁設計，涵蓋 Desktop、Mobile 與多語言頁面，並依不同鏈別調整代幣、錢包與產品溝通。TON 版本於 2024 年 11 月透過 Telegram 上線；目前公開連結可能已撤除。</p></div><figure class="sonic-hero-visual"><div class="sonic-hero-stage"><img src="assets/images/sonic-hero.png" alt="Sonic 預測遊戲產品背景"><img class="sonic-hero-overlay" src="assets/images/sonic-hero-overlay.png" alt="Sonic 預測遊戲主視覺"></div><img class="sonic-hero-phone" src="assets/images/sonic-mobile-ui.png" alt="手機版預測遊戲介面"></figure></section>
     <section class="sonic-meta"><div><span>PERIOD</span><p>2024 — 2025</p></div><div><span>ROLE</span><p>UI DESIGN<br>GAME INTERFACE</p></div><div><span>OUTPUT</span><p>MULTI-CHAIN UI<br>DESKTOP / MOBILE</p></div><div><span>RELEASE</span><p>TON VIA TELEGRAM<br>2024.11 RELEASE</p></div></section>
     <section class="sonic-section"><header><h2>CORE GAME EXPERIENCE</h2><p>Desktop / Mobile production UI</p></header><div class="sonic-responsive-showcase"><figure><img src="assets/images/sonic-desktop-ui.png" alt="桌機版預測遊戲介面"></figure><figure><img src="assets/images/sonic-mobile-ui.png" alt="手機版預測遊戲介面"></figure></div></section>
     <section class="sonic-section"><header class="sonic-heading"><span>PRODUCT EVOLUTION / MULTI-CHAIN ADAPTATION</span><h2>ONE GAME MECHANIC, THREE CHAIN ADAPTATIONS</h2><p>保留核心預測流程與操作架構，依不同鏈別重新整理代幣、錢包、品牌名稱與生態溝通。</p></header><div class="sonic-version-grid"><article><figure><img src="assets/images/sonic-polygon.png" alt="Polygon 版本介面"></figure><div><span>01</span><small>EARLY VERSION</small></div><h3>POLYGON</h3><p>以 Polygon MATIC 與 Wallet Connect 為核心，建立 Web3 預測遊戲的初始產品架構。</p></article><article><figure><img src="assets/images/sonic-ton-version.png" alt="TON 版本介面"></figure><div><span>02</span><small>2024.11 RELEASE</small></div><h3>TON</h3><p>整合 TON 錢包與 Telegram 生態，並透過官方 Bot 發布，延伸社群與線下推廣物料。</p></article><article><figure><img src="assets/images/sonic-version.png" alt="Sonic 版本介面"></figure><div><span>03</span><small>VERSION EXTENSION</small></div><h3>SONIC</h3><p>延續核心遊戲介面，改寫為 Sonic 生態、$S 支付與相對應的品牌內容。</p></article></div></section>
-    <section class="sonic-section"><header><h2>MY CONTRIBUTION</h2><p>聚焦實際參與的 UI 設計與工程交付</p></header><div class="sonic-contribution-grid"><article><span>01</span><h3>INFORMATION HIERARCHY</h3><p>將倒數、即時數值、走勢圖與雙向池資訊集中於同一操作視野，讓玩家快速掌握當前狀態。</p></article><article><span>02</span><h3>RESPONSIVE GAME UI</h3><p>依 Desktop 與 320 px Mobile 尺寸重新安排資訊密度，保留選擇方向、金額與主要數據。</p></article><article><span>03</span><h3>PRODUCTION HANDOFF</h3><p>配合前端實作限制調整介面，整理多語言頁面與交付細節，支援產品完成開發與上線。</p></article></div></section>
-    <section class="sonic-section sonic-launch"><header class="sonic-heading"><span>LAUNCH &amp; MARKETING EVIDENCE</span><h2>FROM TON RELEASE TO PUBLIC CAMPAIGNS</h2><p>從產品發布管道、官方品牌帳號到行銷視覺，保留可驗證的公開痕跡與設計成果。</p></header><div class="sonic-evidence-summary"><article><span>01</span><h3>TON / 2024.11 TELEGRAM RELEASE</h3><p>曾透過 Telegram Mini App 提供遊玩。</p></article><article><span>02</span><h3>OFFICIAL X / @BITVS_168</h3><p>官方品牌帳號仍保留公開識別。</p></article><article><span>03</span><h3>CURRENT STATUS</h3><p>Bot 可被辨識，遊戲服務是否運作未確認。</p></article></div><article class="sonic-evidence sonic-telegram"><figure><img src="assets/images/sonic-telegram.png" alt="BitVS Telegram Bot 歷史頁面"></figure><div><span>RELEASE CHANNEL / TELEGRAM MINI APP</span><h2>BITVS BOT</h2><h3>產品於 2024 年 11 月透過 Telegram Mini App 發布，使用者可由官方 Bot 進入遊戲。</h3><hr><b>EVIDENCE BOUNDARY</b><p>此證據用來說明產品曾有正式發布入口，不代表我負責 Bot 開發、系統部署或目前服務仍在線。</p><strong>X.COM/BITVS_168</strong></div></article><article class="sonic-evidence sonic-offline"><figure><img src="assets/images/sonic-offline.png" alt="線下活動中參與者掃描實體宣傳物料"></figure><div><span>OFFLINE EXPERIENCE MATERIALS</span><h2>FROM SCREEN TO PHYSICAL TOUCHPOINT</h2><p>設計線下體驗使用的實體宣傳物料與導流卡片，協助參與者由 QR Code 進入產品，讓數位體驗延伸到實體活動場景。</p><hr><b>MY RESPONSIBILITY</b><p>負責物料視覺與印刷稿設計；未出席現場發表會，也不負責現場活動執行。</p><strong>現場照片顯示參與者實際接觸物料並操作產品。</strong></div></article><header class="sonic-heading sonic-marketing-heading"><span>MY ROLE / MARKETING VISUAL DESIGN</span><h2>CAMPAIGN VISUALS ACROSS PRODUCT, WEB3 AND SOCIAL CONTENT</h2><p>負責產品功能推廣、Web3／TON 溝通、社群迷因與節慶內容的行銷視覺設計。</p></header><div class="sonic-marketing-grid"><figure><img src="assets/images/sonic-campaign-30s.png" alt="30 秒預測活動視覺"></figure><figure><img src="assets/images/sonic-campaign-web3.png" alt="Web3 Telegram 行銷視覺"></figure><figure><img src="assets/images/sonic-campaign-meme.png" alt="社群迷因行銷視覺"></figure><figure><img src="assets/images/sonic-campaign-newyear.png" alt="2025 新年行銷視覺"></figure></div></section>
-    <nav class="sonic-footer"><a href="index.html#selected-work">← BACK TO SELECTED WORK</a><a href="case.html?project=sunny-city">NEXT CASE ↗</a></nav>`;
+    <section class="sonic-section"><header><h2>DESIGN CONTRIBUTION</h2><p>聚焦實際參與的 UI 設計與工程交付</p></header><div class="sonic-contribution-grid"><article><span>01</span><h3>INFORMATION HIERARCHY</h3><p>將倒數、即時數值、走勢圖與雙向池資訊集中於同一操作視野，讓玩家快速掌握當前狀態。</p></article><article><span>02</span><h3>RESPONSIVE GAME UI</h3><p>依 Desktop 與 320 px Mobile 尺寸重新安排資訊密度，保留選擇方向、金額與主要數據。</p></article><article><span>03</span><h3>PRODUCTION HANDOFF</h3><p>配合前端實作限制調整介面，整理多語言頁面與交付細節，支援產品完成開發與上線。</p></article></div></section>
+    <section class="sonic-section sonic-launch"><header class="sonic-heading"><span>LAUNCH &amp; MARKETING EVIDENCE</span><h2>FROM TON RELEASE TO PUBLIC CAMPAIGNS</h2><p>從產品發布管道、官方品牌帳號到行銷視覺，保留可驗證的公開痕跡與設計成果。</p></header><div class="sonic-evidence-summary"><article><span>01</span><h3>TON / 2024.11 TELEGRAM RELEASE</h3><p>曾透過 Telegram Mini App 提供遊玩。</p></article><article><span>02</span><h3>OFFICIAL X / @BITVS_168</h3><p>官方品牌帳號仍保留公開識別。</p></article><article><span>03</span><h3>CURRENT STATUS</h3><p>Bot 可被辨識，遊戲服務是否運作未確認。</p></article></div><article class="sonic-evidence sonic-telegram"><figure><img src="assets/images/sonic-telegram.png" alt="BitVS Telegram Bot 歷史頁面"></figure><div><span>RELEASE CHANNEL / TELEGRAM MINI APP</span><h2>BITVS BOT</h2><h3>產品於 2024 年 11 月透過 Telegram Mini App 發布，使用者可由官方 Bot 進入遊戲。</h3><hr><b>EVIDENCE BOUNDARY</b><p>此證據用來說明產品曾有正式發布入口，不代表設計職責包含 Bot 開發、系統部署，亦不表示目前服務仍在線。</p><strong>X.COM/BITVS_168</strong></div></article><article class="sonic-evidence sonic-offline"><figure><img src="assets/images/sonic-offline.png" alt="線下活動中參與者掃描實體宣傳物料"></figure><div><span>OFFLINE EXPERIENCE MATERIALS</span><h2>FROM SCREEN TO PHYSICAL TOUCHPOINT</h2><p>設計線下體驗使用的實體宣傳物料與導流卡片，協助參與者由 QR Code 進入產品，讓數位體驗延伸到實體活動場景。</p><hr><b>DESIGN RESPONSIBILITY</b><p>負責物料視覺與印刷稿設計；未出席現場發表會，也不負責現場活動執行。</p><strong>現場照片顯示參與者實際接觸物料並操作產品。</strong></div></article><header class="sonic-heading sonic-marketing-heading"><span>DESIGN ROLE / MARKETING VISUAL DESIGN</span><h2>CAMPAIGN VISUALS ACROSS PRODUCT, WEB3 AND SOCIAL CONTENT</h2><p>負責產品功能推廣、Web3／TON 溝通、社群迷因與節慶內容的行銷視覺設計。</p></header><div class="sonic-marketing-grid"><figure><img src="assets/images/sonic-campaign-30s.png" alt="30 秒預測活動視覺"></figure><figure><img src="assets/images/sonic-campaign-web3.png" alt="Web3 Telegram 行銷視覺"></figure><figure><img src="assets/images/sonic-campaign-meme.png" alt="社群迷因行銷視覺"></figure><figure><img src="assets/images/sonic-campaign-newyear.png" alt="2025 新年行銷視覺"></figure></div></section>
+    <nav class="sonic-footer"><a href="index.html#selected-work">← BACK TO SELECTED WORKS</a><a href="case.html?project=sunny-city">NEXT CASE ↗</a></nav>`;
 } else {
 const put = (id, value) => { document.getElementById(id).textContent = value; };
 put("case-index", project.index);

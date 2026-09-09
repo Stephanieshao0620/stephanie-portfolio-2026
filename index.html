@@ -20,8 +20,9 @@
     <meta name="twitter:image" content="https://stephanieshao0620.github.io/stephanie-portfolio-2026/assets/images/social-preview.png" />
     <title>張勻瑄 Stephanie｜Product Designer</title>
     <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=20260905-theme-selection" />
-    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="styles.css?v=20260909-live-cover" />
+    <script defer src="script.js?v=20260909-3"></script>
+    <script defer src="localization.js?v=20260909-5"></script>
   </head>
   <body>
     <a class="skip-link" href="#main">跳到主要內容</a>
@@ -31,11 +32,11 @@
         <img src="assets/images/brand-mark.svg" alt="" width="12" height="12" />
         <span>STEPHANIE <b>｜張勻瑄</b></span>
       </a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">MENU</button>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="選單"><span class="menu-icon" aria-hidden="true"><i></i><i></i><i></i></span></button>
       <nav class="site-nav" id="site-nav" aria-label="主要導覽">
         <a class="is-active" href="#selected-work">WORK</a>
         <a href="#about">ABOUT</a>
-        <a href="assets/docs/Stephanie-Chang-Resume-2026.pdf" download>RESUME</a>
+        <a href="assets/docs/Stephanie-Chang-Resume-2026.pdf?v=20260909-2" download>RESUME</a>
         <a href="#contact">CONTACT</a>
       </nav>
     </header>
@@ -44,16 +45,15 @@
       <section class="hero section-shell" aria-labelledby="hero-title">
         <div class="hero-copy">
           <div class="hero-intro">
-            <p class="eyebrow">PRODUCT DESIGNER · UI/UX DESIGNER · DESIGN SYSTEMS</p>
+            <p class="eyebrow">PRODUCT DESIGN · UI/UX DESIGN · WEB DESIGNER</p>
             <h1 id="hero-title">TURNING<br />COMPLEXITY INTO<br />CLEAR, SCALABLE<br />DIGITAL PRODUCTS.</h1>
             <div class="hero-summary">
               <p>將複雜需求轉化為清楚、可擴充且能實際落地的產品體驗。</p>
-              <p lang="en">Turning complex requirements into clear, scalable and deliverable product experiences.</p>
             </div>
           </div>
           <div class="hero-actions">
-            <a class="button button-dark" href="#selected-work">VIEW SELECTED WORK ↘</a>
-            <a class="button button-accent" href="assets/docs/Stephanie-Chang-Resume-2026.pdf" download>DOWNLOAD RESUME ↗</a>
+            <a class="button button-dark" href="#selected-work">VIEW SELECTED WORKS ↘</a>
+            <a class="button button-accent" href="assets/docs/Stephanie-Chang-Resume-2026.pdf?v=20260909-2" download>DOWNLOAD RESUME ↗</a>
           </div>
         </div>
         <figure class="portrait-panel">
@@ -64,27 +64,27 @@
 
       <section class="work section-shell" id="selected-work" aria-labelledby="work-title">
         <div class="section-heading">
-          <div><p class="section-index">01 / SELECTED WORK</p><h2 id="work-title">Selected work</h2></div>
-          <p>Four case studies spanning product launch,<br />scalable systems and responsive delivery.</p>
+          <div><p class="section-index">01 / SELECTED WORKS</p><h2 id="work-title">Selected works</h2></div>
+          <p>四個案例，涵蓋產品上線、可擴充系統與響應式設計。</p>
         </div>
 
         <div class="project-grid">
-          <a class="project project-link" href="case.html?project=sunny-city" aria-label="查看 Project Portal 案例詳情">
-            <div class="project-visual sunny-visual"><img src="assets/images/sunny-city.png?v=20260909" alt="Project Portal 產品主視覺" /></div>
+          <a class="project project-link" href="case.html?project=sunny-city" aria-label="查看 Mobile App &amp; Product Portal 案例詳情">
+            <div class="project-visual sunny-visual"><img src="assets/images/sunny-city.png?v=20260909" alt="Mobile App &amp; Product Portal 產品主視覺" /></div>
             <div class="project-info">
               <div class="project-label"><span>01</span></div>
-              <h3>PROJECT PORTAL</h3>
-              <p>From initial product planning and functional architecture to cross-platform launch and a Hong Kong product event.</p>
+              <h3>MOBILE APP &amp; PRODUCT PORTAL</h3>
+              <p>從初期產品企劃與功能架構，到跨平台上線及香港產品發表。</p>
               <small>PRODUCT PLANNING / UI/UX / VISUAL DIRECTION / LAUNCH</small>
             </div>
           </a>
 
-          <a class="project project-link" href="case.html?project=sonic-ton" aria-label="查看 Sonic／TON Game 案例詳情">
+          <a class="project project-link" href="case.html?project=sonic-ton" aria-label="查看 Web3 Prediction Game 案例詳情">
             <div class="project-visual sonic-visual"><img src="assets/images/sonic-ton.png?v=20260909" alt="Sonic／TON 遊戲主視覺" /></div>
             <div class="project-info">
               <div class="project-label"><span>02</span></div>
-              <h3>SONIC / TON GAME</h3>
-              <p>Responsive game interfaces and multilingual product pages delivered across desktop and mobile.</p>
+              <h3>WEB3 PREDICTION GAME</h3>
+              <p>橫跨桌機與手機的響應式遊戲介面，以及多語系產品頁面。</p>
               <small>GAME UI / RESPONSIVE / MULTILINGUAL / WEB3</small>
             </div>
           </a>
@@ -98,17 +98,17 @@
             <div class="project-info">
               <div class="project-label"><span>03</span></div>
               <h3>WHITE-LABEL PRODUCT SYSTEM</h3>
-              <p>Derived from Project Portal into reusable modules and selectable visual directions for mobile client delivery.</p>
+              <p>由成熟產品延伸為可重組模組與多種視覺方向，支援手機端客製交付。</p>
               <small>PRODUCT SYSTEM / MODULAR UI / MOBILE DELIVERY</small>
             </div>
           </a>
 
-          <a class="project project-link" href="case.html?project=live-platform" aria-label="查看 Live Entertainment Platform 案例詳情">
-            <div class="project-visual live-visual"><img src="assets/images/live-platform-home.png?v=20260906" alt="Live Entertainment Platform 跨裝置直播介面" /></div>
+          <a class="project project-link" href="case.html?project=live-platform" aria-label="查看 Live Streaming Platform 案例詳情">
+            <div class="project-visual live-visual"><img src="assets/images/live-platform-home.png?v=20260906" alt="Live Streaming Platform 跨裝置直播介面" /></div>
             <div class="project-info">
               <div class="project-label"><span>04</span></div>
-              <h3>LIVE ENTERTAINMENT PLATFORM</h3>
-              <p>Expanded a live-content product into a responsive viewer and creator experience across three device types.</p>
+              <h3>LIVE STREAMING PLATFORM</h3>
+              <p>將直播內容產品延伸為涵蓋三種裝置的響應式觀看與創作者體驗。</p>
               <small>RESPONSIVE UI / LIVE INTERACTION / DESIGN SYSTEM</small>
             </div>
           </a>
@@ -119,12 +119,12 @@
       <section class="capabilities section-shell" aria-labelledby="capabilities-title">
         <div class="section-heading">
           <div><p class="section-index">02 / EXPERTISE</p><h2 id="capabilities-title">Capabilities</h2></div>
-          <p>A hybrid practice connecting product thinking,<br />visual craft and AI-assisted execution.</p>
+          <p>結合產品思維、視覺設計<br />與 AI 輔助執行的複合能力。</p>
         </div>
         <div class="capability-grid">
-          <article><div><span>01</span><h3>PRODUCT DESIGN STRATEGY</h3><p>Figma · Wireframing · Product Planning</p></div><p>Translate business requirements into modular product structures and scalable interface decisions.</p></article>
-          <article><div><span>02</span><h3>AI-ENHANCED WORKFLOW</h3><p>ChatGPT · Midjourney · Gemini · Liblib AI · JiMeng</p></div><p>Use generative tools to accelerate research synthesis, ideation and asset production.</p></article>
-          <article><div><span>03</span><h3>VISUAL DESIGN &amp; ASSETS</h3><p>Illustrator · Photoshop · 3D Rendering Basics</p></div><p>Build expressive visual systems and campaign-ready assets across product touchpoints.</p></article>
+          <article><div><span>01</span><h3>PRODUCT DESIGN STRATEGY</h3><p>Figma · Wireframing · Product Planning</p></div><p>將商業需求轉化為模組化產品架構與可擴充的介面決策。</p></article>
+          <article><div><span>02</span><h3>AI-ENHANCED WORKFLOW</h3><p>ChatGPT · Midjourney · Gemini · Liblib AI · JiMeng</p></div><p>運用生成式工具加速研究整合、概念發想與素材製作。</p></article>
+          <article><div><span>03</span><h3>VISUAL DESIGN &amp; ASSETS</h3><p>Illustrator · Photoshop · 3D Rendering Basics</p></div><p>建立具辨識度的視覺系統與可跨產品接觸點使用的行銷素材。</p></article>
         </div>
       </section>
 
@@ -139,15 +139,15 @@
 
       <section class="about-contact section-shell" id="about" aria-labelledby="about-title">
         <div class="about-copy">
-          <div><p class="section-index">04 / ABOUT</p><h2 id="about-title">I DESIGN FOR CLARITY,<br />SCALE AND MOMENTUM.</h2><p>具備 3 年 UI/UX 實務經驗，擅長把複雜需求轉化為模組化、可擴充的產品體驗。</p></div>
-          <small>TAICHUNG, TAIWAN · 2026 PORTFOLIO</small>
+          <div><p class="section-index">04 / ABOUT</p><h2 id="about-title">MAKING COMPLEX PRODUCTS<br />EASIER TO USE.</h2><p>累積三年以上介面設計經驗，從需求整理、介面規劃到設計交付，與產品及工程團隊一起把功能做完整。</p></div>
+          <small class="site-copyright">TAICHUNG, TAIWAN · © 2026 STEPHANIE CHANG</small>
         </div>
         <div class="contact-card" id="contact">
-          <div><p>LET'S WORK TOGETHER</p><h2>Have a product<br />worth shaping?</h2><p>歡迎透過電話或 Email 與我聯絡。</p></div>
+          <div><p>LET'S WORK TOGETHER</p><h2>Have a product<br />worth shaping?</h2><p>歡迎透過電話或 Email 聯絡合作。</p></div>
           <address>
             <a href="tel:+886955141983">PHONE / +886 955141983</a>
             <a href="mailto:step200006@gmail.com">EMAIL / step200006@gmail.com</a>
-            <a href="assets/docs/Stephanie-Chang-Resume-2026.pdf" download>DOWNLOAD RESUME ↗</a>
+            <a href="assets/docs/Stephanie-Chang-Resume-2026.pdf?v=20260909-2" download>DOWNLOAD RESUME ↗</a>
           </address>
         </div>
       </section>

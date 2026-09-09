@@ -18,13 +18,20 @@
   <meta name="twitter:image" content="https://stephanieshao0620.github.io/stephanie-portfolio-2026/assets/images/social-preview.png" />
   <title>Case Study｜Stephanie 張勻瑄</title>
   <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="styles.css?v=20260905-live-tablet-fix" />
+  <link rel="stylesheet" href="styles.css?v=20260909-live-card-overflow" />
 </head>
 <body>
   <a class="skip-link" href="#case-content">跳至案例內容</a>
   <header class="site-header case-header">
     <a class="brand" href="index.html"><img src="assets/images/brand-mark.svg" alt="" />STEPHANIE <span>｜張勻瑄</span></a>
-    <a class="case-back" href="index.html#selected-work">← BACK TO SELECTED WORK</a>
+    <a class="case-back" href="index.html#selected-work">← BACK TO SELECTED WORKS</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="選單"><span class="menu-icon" aria-hidden="true"><i></i><i></i><i></i></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="主要導覽">
+      <a class="is-active" href="index.html#selected-work">WORK</a>
+      <a href="index.html#about">ABOUT</a>
+      <a href="assets/docs/Stephanie-Chang-Resume-2026.pdf?v=20260909-2" download>RESUME</a>
+      <a href="index.html#contact">CONTACT</a>
+    </nav>
   </header>
 
   <main id="case-content" class="case-page">
@@ -66,6 +73,8 @@
       <a id="next-case" href="">NEXT CASE ↗</a>
     </nav>
   </main>
+  <script src="script.js?v=20260909-3"></script>
   <script src="case.js?v=20260905-live-evolution-images"></script>
+  <script src="localization.js?v=20260909-7"></script>
 </body>
 </html>
