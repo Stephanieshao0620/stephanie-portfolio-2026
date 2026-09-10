@@ -1,7 +1,7 @@
 const requestedLanguage = new URLSearchParams(location.search).get('lang');
 const language = requestedLanguage === 'en' || requestedLanguage === 'zh'
   ? requestedLanguage
-  : localStorage.getItem('portfolio-language') === 'en' ? 'en' : 'zh';
+  : localStorage.getItem('portfolio-language') === 'zh' ? 'zh' : 'en';
 
 const copy = [
   ['張勻瑄', 'Stephanie Chang'],

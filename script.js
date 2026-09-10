@@ -3,7 +3,7 @@ const navigation = document.querySelector('.site-nav');
 const menuParameter = new URLSearchParams(location.search).get('lang');
 const menuLanguage = menuParameter === 'en' || menuParameter === 'zh'
   ? menuParameter
-  : localStorage.getItem('portfolio-language') === 'en' ? 'en' : 'zh';
+  : localStorage.getItem('portfolio-language') === 'zh' ? 'zh' : 'en';
 const menuCopy = menuLanguage === 'en' ? { open: 'MENU', close: 'CLOSE' } : { open: '選單', close: '關閉' };
 
 if (menuButton) {
