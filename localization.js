@@ -25,6 +25,31 @@ const copy = [
   ['三年以上經驗', '3+ years'],
   ['精選作品', 'Selected works'],
   ['四個案例，涵蓋產品上線、可擴充系統與響應式設計。', 'Four case studies spanning product launches, scalable systems, and responsive design.'],
+  ['使用者研究', 'UX Research'],
+  ['研究與洞察', 'Research & insights'],
+  ['兩項研究專案，連結使用者行為、證據與可落地的產品決策。', 'Two research projects connecting user behavior, evidence, and practical product decisions.'],
+  ['付款旅程', 'Payment Journey'],
+  ['從發現到確認的付款旅程', 'Payment journey from discovery to confirmation'],
+  ['信任在哪一步中斷？', 'Where does trust break?'],
+  ['發現', 'Discover'],
+  ['驗證', 'Verify'],
+  ['付款', 'Pay'],
+  ['確認', 'Confirm'],
+  ['行動支付使用者研究', 'Mobile Payment UX Research'],
+  ['理解支付習慣、決策因素與阻礙，找出體驗改善機會。', 'Understanding payment habits, decision factors, and barriers to uncover experience opportunities.'],
+  ['問卷・使用者行為・洞察整理', 'Survey / User Behavior / Insight Synthesis'],
+  ['產品問卷調查', 'Product Survey Research'],
+  ['將產品問卷調查整理為優先項目', 'Product survey findings summarized into priorities'],
+  ['回饋轉為優先項目', 'Feedback → priorities'],
+  ['描述性證據・自選樣本', 'Descriptive · Self-selected Sample'],
+  ['多多益善捐款人問卷分析', 'Donor Survey Analysis'],
+  ['將捐款人回饋整理為清楚的證據、溝通重點與低負擔改善方向。', 'Turning donor feedback into clear evidence, communication priorities, and low-burden improvements.'],
+  ['問卷分析・NPS・利害關係人溝通', 'Survey Analysis / NPS / Stakeholder Communication'],
+  ['多多益善捐款者問卷分析', 'Right Plus Donor Survey Analysis'],
+  ['與多多益善真實合作案例－捐款者調查', 'A real-world donor research collaboration with Right Plus.'],
+  ['問卷分析 / NPS / 溝通偏好', 'Survey Analysis / NPS / Communication Patterns'],
+  ['查看完整報告 ↗', 'View report ↗'],
+  ['查看多多益善捐款者需求分析完整報告', 'View the complete Right Plus donor research report'],
   ['四個案例，涵蓋產品上線、', 'Four case studies spanning product launches,'],
   ['可擴充系統與響應式設計。', 'scalable systems, and responsive design.'],
   ['手機應用程式與產品入口', 'Mobile App & Product Portal'],
@@ -291,6 +316,108 @@ const copy = [
   ['返回首頁', 'Back to Home'],
 ];
 
+const donorCopy = new Map([
+  ['多多益善', 'Right Plus'],
+  ['捐款者需求分析', 'Donor Needs Analysis'],
+  ['對不同的支持者來說，', 'For different supporters,'],
+  ['一筆捐款究竟完成了什麼？', 'what does a donation actually accomplish?'],
+  ['份有效回覆', 'valid responses'],
+  ['淨推薦值 NPS', 'Net Promoter Score'],
+  ['NPS × 信任指標 × 溝通偏好', 'NPS × trust indicators × communication preferences'],
+  ['先說清楚，', 'First, clarify'],
+  ['這份研究能回答什麼。', 'what this research can answer.'],
+  ['這是一份針對既有支持者的描述性分析，用來理解他們如何形成信任、接近品牌，以及如何解讀自己的捐款。', 'This descriptive study focuses on existing supporters: how trust forms, how they find the organization, and how they interpret their donations.'],
+  ['研究對象', 'Participants'],
+  ['已接觸多多益善的支持者，並非一般大眾或所有捐款者。', 'People already familiar with Right Plus—not the general public or all donors.'],
+  ['分析材料', 'Inputs'],
+  ['NPS、信任題、接觸來源、內容偏好與情境分類。', 'NPS, trust ratings, discovery sources, content preferences, and scenario-based categories.'],
+  ['樣本口徑', 'Sample bases'],
+  ['原始報告不同題組為 N=78、77 或 76；各圖保留實際分母。', 'Question sets use N=78, 77, or 76; each chart retains its actual denominator.'],
+  ['解讀界線', 'Interpretation boundary'],
+  ['結果呈現關聯與傾向，不代表因果、人格定型或整體市場結論。', 'Results describe associations and tendencies—not causality, fixed personality types, or the broader market.'],
+  ['高信任，', 'High trust,'],
+  ['也高度願意推薦。', 'and a strong willingness to recommend.'],
+  ['推薦分數集中在高分區，同時 77 位有效作答者都在兩個信任題給出 4 分以上。', 'Recommendation scores cluster at the high end, while all 77 valid respondents rated both trust items at 4 or above.'],
+  ['平均推薦分數 9.09', 'Average recommendation score: 9.09'],
+  ['中位數 10', 'Median: 10'],
+  ['推薦者', 'Promoters'],
+  ['中立者', 'Passives'],
+  ['批評者', 'Detractors'],
+  ['認為捐款被妥善運用', 'believe donations are used responsibly'],
+  ['評分 4 分以上', 'rated 4 or above'],
+  ['認為是值得信任的媒體', 'consider it a trustworthy media organization'],
+  ['信任與推薦分數高度集中，可能存在天花板效應；這能描述受訪支持者的評價，不能直接證明組織成效。', 'Trust and recommendation ratings are highly concentrated and may show a ceiling effect. They describe respondents’ perceptions, not proof of organizational impact.'],
+  ['他們不是被推薦進來，', 'They were not referred in—'],
+  ['而是讀著讀著，自己走進來。', 'they kept reading and chose to step in.'],
+  ['受訪者主要因議題、理念與內容品質開始支持；親友推薦只占 3.9%。', 'Support began mainly with issue alignment, shared values, and content quality; referrals from friends and family account for only 3.9%.'],
+  ['認同關注議題', 'Issue alignment'],
+  ['認同多多理念', 'Shared mission'],
+  ['支持獨立媒體', 'Support for independent media'],
+  ['深度報導', 'In-depth reporting'],
+  ['募款專案', 'Fundraising campaign'],
+  ['親友推薦', 'Friends and family'],
+  ['約 90%', 'about 90%'],
+  ['近 70%', 'nearly 70%'],
+  ['約 67%', 'about 67%'],
+  ['「有故事」負責吸引注意；', 'Stories capture attention;'],
+  ['「有方法、有證據、有追蹤」負責讓人留下。', 'methods, evidence, and follow-through build lasting support.'],
+  ['不是人格標籤，', 'Not personality labels—'],
+  ['是五種溝通偏好訊號。', 'five signals of communication preference.'],
+  ['原問卷用 DiSC 情境選項整理回應傾向。這裡把它視為溝通線索，不當作標準化人格測驗。', 'The survey used DiSC-inspired scenarios to organize response patterns. Here they are communication cues, not a standardized personality test.'],
+  ['嚴謹查證', 'Evidence-led'],
+  ['偏好分析、數據與方法論，最反感情緒操弄與查證不足。', 'Prefers analysis, data, and methodology; rejects emotional manipulation and weak verification.'],
+  ['混合偏好', 'Mixed preference'],
+  ['三題回答分散，沒有單一主導傾向。', 'Responses were distributed across three items with no dominant tendency.'],
+  ['成果導向', 'Outcome-led'],
+  ['重視具體成果與里程碑，樣本數較小。', 'Values tangible outcomes and milestones; the subgroup is small.'],
+  ['溫暖陪伴', 'Steady support'],
+  ['在意穩定與長期陪伴，樣本數較小。', 'Values stability and long-term presence; the subgroup is small.'],
+  ['社群互動', 'Community-led'],
+  ['被人物故事與交流吸引，樣本極小。', 'Drawn to personal stories and interaction; the subgroup is very small.'],
+  ['兩種支持視角，', 'Two supporter lenses,'],
+  ['在意的是不同的連結。', 'each seeking a different connection.'],
+  ['兩群對關鍵數據的偏好同為 10%，差異主要出現在方法論、人物故事與幕後內容。', 'Both groups show 10% preference for key metrics; their main differences lie in methodology, personal stories, and behind-the-scenes content.'],
+  ['認同型支持者', 'Identity-aligned supporters'],
+  ['「我是多多的一部分」', '“I am part of Right Plus.”'],
+  ['把支持視為對專業的判斷與背書，更在意分析方法是否可靠、觀點是否完整。', 'They see support as professional judgment and endorsement, paying closer attention to rigorous methods and complete perspectives.'],
+  ['價值型支持者', 'Value-aligned supporters'],
+  ['「我讓多多繼續存在」', '“I help Right Plus continue.”'],
+  ['與議題保持一條持續的線，更容易透過人物故事確認自己在乎的價值仍然存在。', 'They maintain a continuing connection to the issue and use personal stories to confirm that the values they care about still endure.'],
+  ['分析與方法論', 'Analysis and methodology'],
+  ['人物故事', 'Personal stories'],
+  ['團隊幕後', 'Behind the scenes'],
+  ['關鍵數據', 'Key metrics'],
+  ['共同的紅線：', 'A shared red line:'],
+  ['不能被操弄。', 'do not manipulate.'],
+  ['兩種支持視角的答案幾乎一致：他們要的是可靠，不是煽情。', 'Both supporter lenses agree: they want reliability, not emotional pressure.'],
+  ['最無法忍受', 'least tolerated'],
+  ['「煽情募款／查證不嚴謹」', '“emotional fundraising / weak verification”'],
+  ['全體樣本的主要紅線', 'the leading red line across the sample'],
+  ['同樣一筆錢，', 'The same donation'],
+  ['在不同人心裡完成的不是同一件事。', 'accomplishes something different for each person.'],
+  ['這題不只問「為什麼捐錢」，也在問受訪者如何理解自己一直捐款這件事。', 'This question asks not only why people donate, but how they understand the act of continuing to give.'],
+  ['守住了一個標準', 'Protect a standard'],
+  ['相信專業不隨波逐流，用實事求是的態度呈現真相。', 'Keep professional standards grounded in facts rather than following the crowd.'],
+  ['有了一個位置', 'Find a place'],
+  ['感受到自己正參與一個有意義的良善社群。', 'Feel part of a meaningful community doing good.'],
+  ['保住了一條線', 'Keep a connection alive'],
+  ['能默默陪伴弱勢群體，是令人安心的存在。', 'Quietly stand alongside vulnerable communities as a reassuring presence.'],
+  ['撐住了一個可能', 'Sustain a possibility'],
+  ['相信支持能帶來實質的社會推進與改變。', 'Believe support can enable tangible social progress and change.'],
+  ['支持多多的理由不必相同，', 'The reasons for supporting Right Plus do not have to be the same,'],
+  ['因為每個人完成的，', 'because each person fulfills'],
+  ['是自己相信的那件事。', 'the thing they believe in.'],
+  ['閱讀限制', 'Reading limits'],
+  ['本頁描述的是自選、且多為既有支持者的回覆；信任分數有天花板效應，子群樣本偏小，所有關聯與差異均不能解讀為因果。', 'This page describes a self-selected sample composed largely of existing supporters. Trust scores show a ceiling effect, subgroup samples are small, and no association or difference should be read as causal.'],
+  ['← 返回研究作品', '← Back to research work'],
+]);
+
+const translateDonorText = (value) => {
+  const translated = donorCopy.get(value.trim());
+  if (!translated) return value;
+  return `${value.match(/^\s*/)[0]}${translated}${value.match(/\s*$/)[0]}`;
+};
+
 const variants = new Map();
 copy.forEach(([zh, en]) => {
   variants.set(zh.toLocaleLowerCase(), { zh, en });
@@ -484,10 +611,100 @@ const translatePage = () => {
   document.title = language === 'zh'
     ? document.title.replaceAll('Stephanie', '史蒂芬妮').replaceAll('Product Designer', '產品設計師').replaceAll('Case Study', '設計案例')
     : document.title.replaceAll('張勻瑄', 'Stephanie Chang').replaceAll('史蒂芬妮', 'Stephanie');
-  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+    acceptNode(node) {
+      return node.parentElement?.closest('.donor-report')
+        ? NodeFilter.FILTER_REJECT
+        : NodeFilter.FILTER_ACCEPT;
+    },
+  });
   const nodes = [];
   while (walker.nextNode()) nodes.push(walker.currentNode);
   nodes.forEach((node) => { node.nodeValue = translateText(node.nodeValue); });
+
+  const donorReport = document.querySelector('.donor-report');
+  if (donorReport && language === 'en') {
+    const donorWalker = document.createTreeWalker(donorReport, NodeFilter.SHOW_TEXT);
+    const donorNodes = [];
+    while (donorWalker.nextNode()) donorNodes.push(donorWalker.currentNode);
+    donorNodes.forEach((node) => { node.nodeValue = translateDonorText(node.nodeValue); });
+    donorReport.querySelectorAll('[aria-label]').forEach((element) => {
+      element.setAttribute('aria-label', translateDonorText(element.getAttribute('aria-label')));
+    });
+  }
+
+  const donorResearchCard = document.querySelector('#donor-research-card');
+  if (donorResearchCard) {
+    const donorCardCopy = language === 'zh'
+      ? {
+          label: '產品問卷調查',
+          headline: '回饋轉為優先項目',
+          evidence: '描述性證據・自選樣本',
+          title: '多多益善捐款者問卷分析',
+          description: '與多多益善真實合作案例－捐款者調查',
+          tags: '問卷分析 / NPS / 溝通偏好',
+          action: '查看完整報告 ↗',
+          aria: '查看多多益善捐款者需求分析完整報告',
+        }
+      : {
+          label: 'PRODUCT SURVEY RESEARCH',
+          headline: 'Feedback → priorities',
+          evidence: 'Descriptive · Self-selected Sample',
+          title: 'Right Plus Donor Survey Analysis',
+          description: 'A real-world donor research collaboration with Right Plus.',
+          tags: 'SURVEY ANALYSIS / NPS / COMMUNICATION PATTERNS',
+          action: 'VIEW REPORT ↗',
+          aria: 'View the complete Right Plus donor research report',
+        };
+    const visual = donorResearchCard.querySelector('.research-visual');
+    const info = donorResearchCard.querySelector('.research-info');
+    visual.querySelector('p').textContent = donorCardCopy.label;
+    visual.querySelector('h3').textContent = donorCardCopy.headline;
+    visual.querySelector('small').textContent = donorCardCopy.evidence;
+    info.querySelector('h3').textContent = donorCardCopy.title;
+    info.querySelector('p').textContent = donorCardCopy.description;
+    const meta = info.querySelector('small');
+    meta.replaceChildren(document.createTextNode(`${donorCardCopy.tags} `));
+    const action = document.createElement('b');
+    action.textContent = donorCardCopy.action;
+    meta.append(action);
+    donorResearchCard.setAttribute('aria-label', donorCardCopy.aria);
+  }
+
+  const paymentResearchCard = document.querySelector('#payment-research-card');
+  if (paymentResearchCard) {
+    const paymentCardCopy = language === 'zh'
+      ? {
+          label: '付款旅程',
+          headline: '信任在哪裡中斷？',
+          title: '行動支付使用者研究',
+          description: '透過 26 位受訪者的探索型游擊訪談，整理付款習慣、決策因素與結帳摩擦。',
+          tags: '游擊訪談 / 使用者行為 / 洞察整理',
+          action: '查看完整報告 ↗',
+          aria: '查看行動支付使用者研究完整報告',
+        }
+      : {
+          label: 'PAYMENT JOURNEY',
+          headline: 'Where does trust break?',
+          title: 'Mobile Payment UX Research',
+          description: 'Understanding payment habits, decision factors, and checkout friction through 26 exploratory interviews.',
+          tags: 'GUERRILLA INTERVIEWS / USER BEHAVIOR / INSIGHT SYNTHESIS',
+          action: 'VIEW REPORT ↗',
+          aria: 'View the complete mobile payment UX research report',
+        };
+    const visual = paymentResearchCard.querySelector('.research-visual');
+    const info = paymentResearchCard.querySelector('.research-info');
+    visual.querySelector('p').textContent = paymentCardCopy.label;
+    visual.querySelector('h3').textContent = paymentCardCopy.headline;
+    info.querySelector('h3').textContent = paymentCardCopy.title;
+    info.querySelector('p').textContent = paymentCardCopy.description;
+    const meta = info.querySelector('small');
+    meta.replaceChildren(document.createTextNode(`${paymentCardCopy.tags} `));
+    const action = document.createElement('b');
+    action.textContent = paymentCardCopy.action;
+    meta.append(action);
+    paymentResearchCard.setAttribute('aria-label', paymentCardCopy.aria);
+  }
 
   document.querySelectorAll('[aria-label],[alt],[title]').forEach((element) => {
     ['aria-label', 'alt', 'title'].forEach((attribute) => {
@@ -611,9 +828,15 @@ const translatePage = () => {
   });
 
   const caseTitle = document.querySelector('#case-content h1')?.textContent.trim();
+  const isDonorReport = document.body.classList.contains('donor-body') || document.body.classList.contains('research-donor');
+  const isPaymentReport = document.body.classList.contains('research-payment');
   const isError = document.body.classList.contains('error-body');
   document.title = isError
     ? language === 'zh' ? '找不到頁面｜張勻瑄' : 'Page Not Found | Stephanie Chang'
+    : isPaymentReport
+      ? language === 'zh' ? '行動支付｜結帳體驗游擊訪談' : 'Mobile Payment | Checkout Experience Research'
+    : isDonorReport
+      ? language === 'zh' ? '多多益善｜捐款者需求分析' : 'Right Plus | Donor Survey Analysis'
     : caseTitle
       ? `${caseTitle}｜${language === 'zh' ? '張勻瑄' : 'Stephanie Chang'}`
       : language === 'zh' ? '張勻瑄｜產品設計師' : 'Stephanie Chang | Product Designer';

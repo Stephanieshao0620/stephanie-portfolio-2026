@@ -79,3 +79,18 @@ document.querySelectorAll('img').forEach((image) => {
   if (!image.closest('.hero') && !image.closest('.site-header')) image.loading = 'lazy';
   image.decoding = 'async';
 });
+
+const researchCards = document.querySelectorAll('.research-card, [data-reveal]');
+if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  researchCards.forEach((item) => item.classList.add('is-visible'));
+} else if (researchCards.length) {
+  researchCards.forEach((item) => item.classList.add('motion-ready'));
+  const researchObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('is-visible');
+      observer.unobserve(entry.target);
+    });
+  }, { threshold: 0.25, rootMargin: '0px 0px -8% 0px' });
+  researchCards.forEach((item) => researchObserver.observe(item));
+}
