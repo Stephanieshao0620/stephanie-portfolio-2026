@@ -281,6 +281,8 @@ html[lang="en"] .donor-hero h1{font-family:Jost,sans-serif;text-transform:upperc
 .report-metric.accent span,.report-metric.accent p,.report-card.accent span,.report-card.accent p{color:var(--paper)}
 .report-card h3{margin-top:20px;font-size:clamp(22px,2.3vw,30px);line-height:1.17;letter-spacing:-.02em}
 .report-card.tall{min-height:310px}
+.preference-grid .report-card{background:var(--sand);border-color:var(--line)}
+.preference-grid .report-card.dark{background:var(--ink);border-color:var(--ink)}
 .report-card.dark,.statement.dark,.comparison.dark{background:var(--ink);color:var(--paper)}
 .report-card.dark p,.statement.dark p,.comparison.dark p{color:#d8d0c6}
 .statement-grid{margin-top:18px;display:grid;grid-template-columns:1.25fr .75fr;gap:18px}
@@ -297,9 +299,13 @@ html[lang="en"] .donor-hero h1{font-family:Jost,sans-serif;text-transform:upperc
 .comparison.light{background:var(--paper-2)}
 .comparison h3{margin-top:30px;font-size:clamp(32px,3.6vw,48px);line-height:1.1;letter-spacing:-.03em}
 .comparison>p{max-width:38ch;margin-top:24px;color:var(--muted);font-size:15px;line-height:1.7}
-.comparison dl{margin:auto 0 0}
-.comparison dl div{padding:13px 0;border-top:1px solid currentColor;display:flex;justify-content:space-between;gap:20px}
-.comparison dt{font-size:14px}.comparison dd{margin:0;font-weight:700;font-variant-numeric:tabular-nums}
+.comparison dl{margin:44px 0 0;display:grid;gap:18px}
+.comparison dl div{display:grid;grid-template-columns:minmax(120px,160px) minmax(0,1fr) 48px;align-items:center;gap:16px}
+.comparison dt{font-size:14px}.comparison dd{margin:0;text-align:right;font-weight:700;font-variant-numeric:tabular-nums}
+.comparison dl i{height:12px;background:var(--sand);overflow:hidden}
+.comparison dl i::after{content:"";display:block;width:var(--value);height:100%;background:var(--ink);transform-origin:left}
+.comparison.light dl div:first-child i::after,.comparison.dark dl div:first-child i::after{background:var(--accent)}
+.comparison.dark dl i{background:#5f5b58}.comparison.dark dl i::after{background:var(--paper-2)}
 .wide-statement{padding:42px;background:var(--ink);color:var(--paper);font-size:clamp(32px,4vw,54px);font-weight:700;line-height:1.16;letter-spacing:-.03em}
 .three-grid{margin-top:18px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
 .three-grid .report-card{min-height:250px}
@@ -342,7 +348,7 @@ html[lang="zh-Hant"] .report-hero-copy h1{text-transform:none;letter-spacing:.01
   .metric-grid,.preference-grid,.four-grid,.outcome-grid,.three-grid,.statement-grid,.comparison-grid{grid-template-columns:1fr}
   .report-metric,.report-card,.report-card.tall,.three-grid .report-card{min-height:230px;padding:24px}.report-metric strong{font-size:58px}.report-card h3{font-size:26px}
   .statement{min-height:330px;padding:28px 24px}.statement h3{font-size:38px}.statement strong{font-size:92px}
-  .report-caution{padding:22px;grid-template-columns:1fr;gap:12px}.comparison{min-height:490px;padding:32px 24px}.comparison h3{font-size:34px}
+  .report-caution{padding:22px;grid-template-columns:1fr;gap:12px}.comparison{min-height:0;padding:32px 24px}.comparison h3{font-size:34px}.comparison dl{margin-top:36px}.comparison dl div{grid-template-columns:minmax(96px,130px) minmax(0,1fr) 44px;gap:12px}.comparison dt{font-size:12px}
   .wide-statement{padding:30px 24px;font-size:35px}.three-grid{margin-top:14px;gap:14px}
   .report-conclusion{min-height:0;padding:70px 20px;grid-template-columns:1fr;gap:64px}.report-conclusion h2{font-size:46px}.report-conclusion a{margin-top:80px}.report-conclusion aside{padding:28px 22px}
 }
