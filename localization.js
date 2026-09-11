@@ -725,7 +725,10 @@ const translatePage = () => {
     brand.setAttribute('aria-label', language === 'zh' ? 'STEPHANIE 首頁' : 'Stephanie homepage');
   }
 
-  document.querySelector('.hero-summary')?.remove();
+  const heroSummary = document.querySelector('.hero-summary p');
+  if (heroSummary) heroSummary.textContent = language === 'zh'
+    ? '累積三年以上介面設計經驗，從需求整理、介面規劃到設計交付，與產品及工程團隊一起把功能做完整。'
+    : 'With over three years of interface design experience, I work from requirements definition and interface planning through design delivery, partnering with product and engineering teams to bring features to completion.';
   const portraitCaption = document.querySelector('.portrait-panel figcaption span');
   if (portraitCaption) portraitCaption.textContent = 'STEPHANIE';
   const heroTitle = document.querySelector('#hero-title');
@@ -770,13 +773,13 @@ const translatePage = () => {
   const copyright = document.querySelector('.site-copyright');
   if (aboutTitle) {
     aboutTitle.textContent = language === 'zh'
-      ? '把複雜的事，整理成好用的產品。'
-      : 'MAKING COMPLEX PRODUCTS EASIER TO USE.';
+      ? '從介面設計走向產品設計。'
+      : 'MOVING FROM INTERFACE DESIGN TO PRODUCT DESIGN.';
   }
   if (aboutDescription) {
     aboutDescription.textContent = language === 'zh'
-      ? '累積三年以上介面設計經驗，從需求整理、介面規劃到設計交付，與產品及工程團隊一起把功能做完整。'
-      : 'Over three years of UI design experience, working from requirements and interface planning through design delivery with product and engineering teams.';
+      ? '3 年 UI/UX 實務經驗，專注 Web、Design System 與複雜產品介面。喜歡拆解模糊問題、建立可延伸的系統，並透過 AI-assisted workflow 將設計更快帶進實際產品。'
+      : 'With 3 years of hands-on UI/UX experience, I focus on web, design systems, and complex product interfaces. I enjoy breaking down ambiguous problems, building extensible systems, and using an AI-assisted workflow to bring design into real products faster.';
   }
   if (copyright) {
     copyright.textContent = 'TAICHUNG, TAIWAN · © 2026 STEPHANIE CHANG';
