@@ -10,7 +10,10 @@ const copy = [
   ['選單', 'Menu'],
   ['關閉', 'Close'],
   ['作品', 'Work'],
+  ['首頁', 'Home'],
+  ['關於我', 'About Me'],
   ['關於', 'About'],
+  ['← 返回首頁', '← Back to Home'],
   ['履歷', 'Resume'],
   ['聯絡', 'Contact'],
   ['產品設計・介面體驗設計・網頁設計', 'Product Design · UI/UX Design · Web Designer'],
@@ -309,6 +312,45 @@ const copy = [
   ['設計角色・行銷視覺設計', 'Design Role · Marketing Visual Design'],
   ['跨產品、第三代網路與社群內容的行銷視覺', 'Campaign Visuals Across Product, Web3, and Social Content'],
   ['負責產品功能推廣、第三代網路／開放網路鏈溝通、社群迷因與節慶內容的行銷視覺設計。', 'Designed campaign visuals for product features, Web3 and TON communication, social memes, and seasonal content.'],
+
+  ['我不只想把介面畫好，也想把問題整理清楚。', 'I do more than design interfaces. I bring clarity to complex problems.'],
+  ['我不只想把介面畫好，', 'I do more than design interfaces.'],
+  ['也想把問題整理清楚。', 'I bring clarity to complex problems.'],
+  ['從介面設計走向產品設計。累積 3 年以上 UI/UX 實務經驗，專注 Web、Design System 與複雜產品介面。', 'Moving from interface design toward product design, with over three years of UI/UX experience across web, design systems, and complex product interfaces.'],
+  ['喜歡拆解模糊問題、建立可延伸的系統，讓設計不只停在畫面，而能真正進入產品。', 'I enjoy untangling ambiguous problems and building extensible systems so design can move beyond screens and into the product.'],
+  ['把複雜的事，整理成能一起推進的方向。', 'Turning complexity into a direction the team can move forward with.'],
+  ['我在意的不只是畫面是否完成，而是問題有沒有被說清楚、系統能不能延伸，以及團隊是否知道下一步怎麼走。', 'I care not only about whether the screen is finished, but whether the problem is clear, the system can scale, and the team knows what comes next.'],
+  ['拆解模糊', 'Clarify ambiguity'],
+  ['先把散落的需求、限制與假設整理成可討論的問題，避免設計只是在猜答案。', 'Turn scattered requirements, constraints, and assumptions into questions the team can discuss, so design is not reduced to guessing.'],
+  ['建立系統', 'Build systems'],
+  ['從資訊架構、元件到狀態規則，讓一次設計能支撐後續擴充，而不是只解當下畫面。', 'From information architecture and components to state rules, design each solution to support future growth rather than only the current screen.'],
+  ['推進落地', 'Move toward delivery'],
+  ['把設計與產品、工程放在同一條交付路徑上，持續確認可行性並縮短來回成本。', 'Keep design, product, and engineering on the same delivery path, validating feasibility early and reducing rework.'],
+  ['不是換一個職稱，而是把設計看得更完整。', 'It is not a new title. It is a more complete view of design.'],
+  ['不是換一個職稱，', 'It is not a new title.'],
+  ['而是把設計看得更完整。', 'It is a more complete view of design.'],
+  ['從單一介面，到 Web、Design System 與跨職能協作，我逐漸把注意力從「畫面怎麼做」擴大到「產品為什麼這樣做」。', 'From individual interfaces to web, design systems, and cross-functional collaboration, my focus has expanded from how a screen is made to why the product works this way.'],
+  ['介面設計', 'Interface design'],
+  ['網頁體驗', 'Web experience'],
+  ['系統化', 'System thinking'],
+  ['產品設計', 'Product design'],
+  ['讓工具加速執行，但判斷仍然回到人。', 'Let tools accelerate execution while judgment stays human.'],
+  ['讓工具加速執行，', 'Let tools accelerate execution,'],
+  ['但判斷仍然回到人。', 'while judgment stays human.'],
+  ['AI 是工作流程的一部分：協助整理、探索與驗證；真正決定方向的，仍是脈絡、證據與團隊共識。', 'AI is part of the workflow, helping organize, explore, and verify. Direction still comes from context, evidence, and team alignment.'],
+  ['把時間留給更重要的判斷。', 'Save time for the decisions that matter.'],
+  ['我會用 AI 協助梳理大量資訊、比較方案、補齊文件與加速原型，但不把生成結果直接當答案。每一步仍會回到使用情境、可行性與設計目的。', 'I use AI to organize information, compare options, complete documentation, and accelerate prototypes, but never treat generated output as the answer. Each step returns to context, feasibility, and design intent.'],
+  ['好的設計，需要能被一起完成。', 'Good design has to be built together.'],
+  ['好的設計，', 'Good design'],
+  ['需要能被一起完成。', 'has to be built together.'],
+  ['我習慣提早確認限制、把不同角色的語言翻成共同問題，並讓決策留下可以追蹤的依據。', 'I surface constraints early, translate different disciplines into shared questions, and leave a traceable basis for decisions.'],
+  ['想看我怎麼把問題帶進實際產品？', 'Want to see how I carry problems into real products?'],
+  ['想看我怎麼把問題', 'Want to see how I carry problems'],
+  ['帶進實際產品？', 'into real products?'],
+  ['從產品介面、Design System 到 UX 研究，作品集記錄的不只是成果，也包含我如何判斷與推進。', 'From product interfaces and design systems to UX research, my portfolio shows not only outcomes but how I make decisions and move work forward.'],
+  ['我喜歡把混亂的資訊整理成大家都能理解、繼續使用的東西。', 'I like turning messy information into something people can understand and keep using.'],
+  ['查看精選作品 ↓', 'View selected work ↓'],
+  ['下載履歷 ↗', 'Download resume ↗'],
 
   ['頁面不存在', 'Page Not Found'],
   ['似乎有些地方出錯了，請重新載入。', 'Oops! It seems something went wrong. Please reload.'],
@@ -830,6 +872,39 @@ const translatePage = () => {
     if (label && heading && label.textContent.trim().toLocaleLowerCase() === heading.textContent.trim().toLocaleLowerCase()) label.remove();
   });
 
+  const isAboutPage = document.body.classList.contains('about-page');
+  if (isAboutPage) {
+    const fixedAboutLabels = new Map([
+      ['.about-hero-statement .about-label', 'ABOUT / STEPHANIE'],
+      ['.about-hero-direction .about-label', 'FROM INTERFACE DESIGN TO'],
+      ['.how-design .about-label', '01 / HOW I DESIGN'],
+      ['.about-journey .about-label', '02 / EVOLVING PRACTICE'],
+      ['.about-working > .about-heading .about-label', '03 / WORKING STYLE'],
+      ['.workflow-card > span', 'AI-ASSISTED WORKFLOW'],
+      ['.collaboration-card > span', 'COLLABORATION'],
+      ['.workflow-card small', 'FRAME → EXPLORE → VERIFY → DELIVER'],
+      ['.about-next-copy .about-label', '04 / NEXT'],
+      ['.about-note .about-label', 'A NOTE ABOUT ME'],
+      ['.about-note small', 'OPEN TO PRODUCT DESIGN OPPORTUNITIES\nTAICHUNG · TAIWAN'],
+      ['.about-hero-statement small', 'TAICHUNG, TAIWAN  ·  PRODUCT DESIGNER'],
+    ]);
+    fixedAboutLabels.forEach((value, selector) => {
+      const element = document.querySelector(selector);
+      if (element) element.textContent = value;
+    });
+    const pathLabels = ['UI DESIGN', 'WEB EXPERIENCE', 'DESIGN SYSTEM', 'PRODUCT DESIGN'];
+    document.querySelectorAll('.about-path article > p').forEach((label, index) => {
+      label.textContent = pathLabels[index];
+    });
+    const note = document.querySelector('.about-note blockquote');
+    if (note) note.textContent = language === 'zh'
+      ? '「我喜歡把混亂的資訊整理成大家都能理解、繼續使用的東西。」'
+      : '“I like turning messy information into something people can understand and keep using.”';
+    const actions = document.querySelectorAll('.about-actions .button');
+    if (actions[0]) actions[0].textContent = 'VIEW SELECTED WORK ↓';
+    if (actions[1]) actions[1].textContent = 'DOWNLOAD RESUME ↗';
+  }
+
   const caseTitle = document.querySelector('#case-content h1')?.textContent.trim();
   const isDonorReport = document.body.classList.contains('donor-body') || document.body.classList.contains('research-donor');
   const isPaymentReport = document.body.classList.contains('research-payment');
@@ -840,6 +915,8 @@ const translatePage = () => {
       ? language === 'zh' ? '行動支付｜結帳體驗游擊訪談' : 'Mobile Payment | Checkout Experience Research'
     : isDonorReport
       ? language === 'zh' ? '多多益善｜捐款者需求分析' : 'Right Plus | Donor Survey Analysis'
+    : isAboutPage
+      ? language === 'zh' ? '關於我｜張勻瑄' : 'About Stephanie Chang | Product Designer'
     : caseTitle
       ? `${caseTitle}｜${language === 'zh' ? '張勻瑄' : 'Stephanie Chang'}`
       : language === 'zh' ? '張勻瑄｜產品設計師' : 'Stephanie Chang | Product Designer';
